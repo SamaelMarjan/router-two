@@ -6,7 +6,7 @@ import { SoftData } from '../../data/SoftData';
 const Soft = () => {
   return (
     <div className='soft'>
-        <div>
+        <div className='soft-a'>
             <table className='table'>
                 <tr className='t-head'>
                     <th>Name</th>
@@ -32,7 +32,9 @@ const Soft = () => {
                 }
             </table>
         </div>
+        <div className='soft-b'>
             <Outlet />
+        </div>
     </div>
   );
 }

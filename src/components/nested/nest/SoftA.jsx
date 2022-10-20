@@ -16,12 +16,16 @@ const SoftA = () => {
 
   return (
     <>
-      <div>
+      <div className='softa'>
         {
           data ? (
-            <div>
-              {data.name}
-            </div>
+            <>
+              <div>
+                <img src={data.image} alt='imgs' />
+                <p>{data.name}</p>
+                <p>{data.phone}</p>
+              </div>
+            </>
           ) : (null)
         }
       </div>

@@ -2,7 +2,6 @@
 
 .app {
   display: flex;
-  gap: 1rem;
 }
 
 .navbar {
@@ -44,6 +43,7 @@
 
 table {
   border: 1px solid red;
+  border-bottom: none;
 }
 
 th {
@@ -52,6 +52,7 @@ th {
 }
 
 td {
+  padding: 10px;
   border-bottom: 1px solid red;
   border-right: 1px solid red;
 }
@@ -66,4 +67,31 @@ td {
 
 .soft {
   display: flex;
+  gap: 3rem;
+}
+
+.soft-a {
+}
+
+.soft-b {
+
+}
+
+/*SoftA*/
+
+.softa {
+  width: 500px;
+  height: 500px;
+  padding: 2rem 0 2rem 2rem;
+  background-color: #252525;
+}
+
+/* Companies */
+
+.companies {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
 }

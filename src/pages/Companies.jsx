@@ -3,7 +3,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 
 const Companies = () => {
   return (
-    <div>
+    <div className='companies'>
       <div>
         <NavLink to='soft'>Software Companies</NavLink>
       </div>

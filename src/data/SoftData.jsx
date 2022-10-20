@@ -4,12 +4,14 @@ export const SoftData = [
         name: "Wikizz",
         email: "sbrigham0@bloglines.com",
         phone: "153-51-9159",
+        image: '/images/BrainStation.png',
         url: "http://linkedin.com"
       }, {
         id: 2,
         name: "Dynabox",
         email: "rcurcher1@engadget.com",
         phone: "882-69-1110",
+        image: '/images/bjit.svg',
         url: "http://newyorker.com"
       }, {
         id: 3,
