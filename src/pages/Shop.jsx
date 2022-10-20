@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import {ShopData} from '../data/ShopData';
 
 const Shop = () => {
-  const [data, setData] = useState(ShopData);
 
   return (
     <>
@@ -13,10 +12,10 @@ const Shop = () => {
           Products
         </div>
         {
-          data.map((data) => {
+          ShopData.map((data) => {
             return (
               <>
-                <div>
+                <div key={data.id}>
                   <p>{data.title}</p>
                   <Link to={`/shop/${data.id}`}>View</Link>
                 </div>
